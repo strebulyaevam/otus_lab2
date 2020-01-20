@@ -16,7 +16,9 @@ public class OtusHome {
 
     public OtusHome (WebDriver driver) {this.driver = driver;}
 
-    By loc_main_courses = By.xpath("//div[@class='subtitle-new' and text()='Популярные курсы']");
+//    By loc_main_courses = By.xpath("//div[@class='subtitle-new' and text()='Популярные курсы']");
+    By loc_main_courses = By.xpath("//div[@class='subtitle-new']");
+
 
     public boolean findMainCourses()
     {

@@ -10,7 +10,7 @@
 
     <test name="homePage-tests">
 
-        <parameter name="hostname"  value="https://otus.ru/" />
+        <!--<parameter name="hostname"  value="https://otus.ru/" />-->
         <!--<parameter name="browser"  value="Chrome" />-->
 
 

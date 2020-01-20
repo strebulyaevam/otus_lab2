@@ -32,9 +32,9 @@ public class WebDriverFactory {
         try {
             Log.info("Try to set up browser " + webDriverName);
             browser = Browsers.valueOf(webDriverName.toUpperCase());
-            Log.info(webDriverName + " is possible browser");
+            Log.info(webDriverName + " is recognized browser");
         } catch (Exception e) {
-            Log.error(webDriverName + " is NOT possible browser");
+            Log.error(webDriverName + " is NOT recognized browser");
             throw e;
         }
 
